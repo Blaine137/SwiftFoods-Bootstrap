@@ -12,11 +12,16 @@
 }
 
 .headerLogo{
-    width: 150px;
-    height: 100px;
+    background-color: var(--bg-color1);
+    border: none !important;
 }
 
 .jumbotron{
     background-color: var(--bg-color1);
     color: var(--accent-color);   
+}
+
+.subscribeBtn{
+  background-color: var(--accent-color);
+  color: var(--bg-color1) !important;
 }
