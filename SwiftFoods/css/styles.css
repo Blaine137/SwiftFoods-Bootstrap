@@ -1,6 +1,6 @@
 /*VARIABLES*/
 
---root{
+:root{
 
   --bg-color1: #222A68;
   --bg-color2: #574AE2;
@@ -17,5 +17,6 @@
 }
 
 .jumbotron{
-    background-image: linear-gradient(to right, var(--bg-color1), var(--bg-color2)) !important;
+    background-color: var(--bg-color1);
+    color: var(--accent-color);   
 }
