@@ -12,8 +12,21 @@
 
 }
 
+header a{
+  font-family: 'Reenie Beanie', cursive;
+}
+
+h1, h2{
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+h3{
+  font-family: 'Cedarville Cursive', cursive;
+}
+
 h5{
   color: var(--bg-color1);
+  font-family: 'Reenie Beanie', cursive;
 }
 
 
