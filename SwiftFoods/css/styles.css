@@ -7,9 +7,15 @@
   --font-color1: #654597;
   --font-color2: #AB81CD;
   --accent-color: #E2ADF2;
+  --accent-colorRGBA: rgba(226, 173, 242, .5);
 
 
 }
+
+h5{
+  color: var(--bg-color1);
+}
+
 
 .headerLogo{
     background-color: var(--bg-color1);
@@ -24,4 +30,34 @@
 .subscribeBtn{
   background-color: var(--accent-color);
   color: var(--bg-color1) !important;
+  border: none;
+  transition: transform .5s ease-in-out;
 }
+
+.subscribeBtn:hover{
+  background-color: var(--accent-colorRGBA);
+  color: white !important;
+  transform: scale(1.1);
+}
+
+.navbar{
+  background-color: var(--bg-color2);
+}
+
+.row-content{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card img{
+  height: 200px;
+}
+
+.site-footer{
+  background-color: var(--bg-color1);
+}
+
+.footerH5{
+  color: var(--accent-color);
+}
+
