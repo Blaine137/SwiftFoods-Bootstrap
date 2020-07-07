@@ -7,26 +7,44 @@
   --font-color1: #654597;
   --font-color2: #AB81CD;
   --accent-color: #E2ADF2;
-  --accent-colorRGBA: rgba(226, 173, 242, .5);
+  --accent-colorRGBA: rgba(226, 173, 242, .6);
 
 
 }
 
 header a{
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2{
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  color: var(--accent-colorRGBA);
 }
 
 h3{
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Yellowtail', cursive;
+  color: var(--font-color1);
+}
+
+h4{
+  color: var(--bg-color2);
+  font-family: 'Yellowtail', cursive;
 }
 
 h5{
   color: var(--bg-color1);
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer a{
+  color: var(--accent-color);
+}
+
+footer a:hover{
+  color: var(--accent-colorRGBA);
 }
 
 
@@ -70,7 +88,13 @@ h5{
   background-color: var(--bg-color1);
 }
 
-.footerH5{
+.contactInfo a{
   color: var(--accent-color);
 }
+
+.contactInfo a:hover{
+  color: var(--accent-colorRGBA);
+}
+
+
 
