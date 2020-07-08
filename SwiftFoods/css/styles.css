@@ -65,6 +65,10 @@ footer a:hover{
   transition: transform .5s ease-in-out;
 }
 
+.subscribeBtn:active, .subscribeBtn:focus{
+  background-color: var(--accent-colorRGBA) !important;
+}
+
 .subscribeBtn:hover{
   background-color: var(--accent-colorRGBA);
   color: white !important;
@@ -80,8 +84,29 @@ footer a:hover{
   padding-bottom: 2rem;
 }
 
+.card{
+  transition: transform .5s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
 .card img{
   height: 200px;
+}
+
+.submitBtn{
+  background-color: var(--accent-color);
+  color: var(--bg-color1);
+  font-family: 'Montserrat', sans-serif;
+  transition: transform .5s ease-in-out;
+}
+
+.submitBtn:hover{
+  background-color: var(--bg-color2);
+  color: var(--accent-color);
+  transform: scale(1.1);
 }
 
 .site-footer{
