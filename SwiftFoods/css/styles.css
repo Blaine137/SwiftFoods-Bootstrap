@@ -93,7 +93,7 @@ footer a:hover{
   transition: transform .5s ease-in-out;
 }
 
-.card:hover{
+.homeCards:hover{
   transform: scale(1.1);
 }
 
@@ -101,14 +101,14 @@ footer a:hover{
   height: 200px;
 }
 
-.submitBtn{
+.submitBtn, .orderBtn{
   background-color: var(--accent-color);
   color: var(--bg-color1);
   font-family: 'Montserrat', sans-serif;
   transition: transform .5s ease-in-out;
 }
 
-.submitBtn:hover{
+.submitBtn:hover, .orderBtn:hover{
   background-color: var(--bg-color2);
   color: var(--accent-color);
   transform: scale(1.1);
