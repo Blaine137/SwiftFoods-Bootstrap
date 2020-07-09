@@ -35,12 +35,16 @@ h4{
 }
 
 h5{
-  color: var(--bg-color1);
+  color: var(--bg-color2);
   font-family: 'Montserrat', sans-serif;
 }
 
 p{
   color: var(--bg-color1);
+}
+
+label{
+  color: var(--bg-color2);
 }
 
 footer a{
