@@ -43,8 +43,12 @@ p{
   color: var(--bg-color1);
 }
 
+form{
+  background-color: var(--bg-color1);
+}
+
 label{
-  color: var(--bg-color2);
+  color: var(--accent-color);
 }
 
 footer a{
@@ -88,8 +92,8 @@ footer a:hover{
 }
 
 .row-content{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   border-bottom: 2px solid var(--font-color1);
 }
 
