@@ -44,11 +44,15 @@ p{
 }
 
 form{
-  background-color: var(--bg-color1);
+  background-color: var(--bg-color2);
 }
 
 label{
-  color: var(--accent-color);
+  color: white;
+}
+
+span{
+  color: var(--font-color1);
 }
 
 footer a{
@@ -109,16 +113,28 @@ footer a:hover{
   height: 200px;
 }
 
-.submitBtn, .orderBtn{
+.orderBtn{
+  background-color: var(--accent-color);
+  color: var(--bg-color2);
+  transition: transform .5s ease-in-out;
+}
+
+.orderBtn:hover{
+  background-color: var(--bg-color2);
+  color: var(--accent-color);
+  transform: scale(1.1);
+}
+
+.submitBtn{
   background-color: var(--accent-color);
   color: var(--bg-color1);
   font-family: 'Montserrat', sans-serif;
   transition: transform .5s ease-in-out;
 }
 
-.submitBtn:hover, .orderBtn:hover{
-  background-color: var(--bg-color2);
-  color: var(--accent-color);
+.submitBtn:hover{
+  background-color: var(--accent-colorRGBA);
+  color: var(--bg-color1);
   transform: scale(1.1);
 }
 
