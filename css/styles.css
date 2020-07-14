@@ -57,13 +57,7 @@ input:focus{
   transform: scale(1.1);
 }
 
-select{
-  transition: transform .5s ease-in-out;
-}
 
-select:focus{
-  transform: scale(1.1);
-}
 
 label{
   color: white;
