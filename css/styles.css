@@ -63,10 +63,6 @@ label{
   color: white;
 }
 
-span{
-  color: var(--font-color1);
-}
-
 footer a{
   color: var(--accent-color);
 }
@@ -148,6 +144,18 @@ footer a:hover{
   background-color: var(--accent-colorRGBA);
   color: var(--bg-color1);
   transform: scale(1.1);
+}
+
+.totalPrice{
+  color: var(--font-color1);
+}
+
+.thanksMsg, .shopLink{
+  color: var(--font-color1);
+}
+
+.shopLink:hover{
+  color: var(--font-color2);
 }
 
 .site-footer{
