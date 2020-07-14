@@ -45,6 +45,24 @@ p{
 
 form{
   background-color: var(--bg-color2);
+  box-shadow: 2px 2px 6px 6px var(--font-color2);
+  border-radius: 5%;
+}
+
+input{
+  transition: transform .5s ease-in-out;
+}
+
+input:focus{
+  transform: scale(1.1);
+}
+
+select{
+  transition: transform .5s ease-in-out;
+}
+
+select:focus{
+  transform: scale(1.1);
 }
 
 label{
