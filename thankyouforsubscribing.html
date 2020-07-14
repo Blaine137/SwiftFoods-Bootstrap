@@ -20,14 +20,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="index.html"><img src="images/swiftfoodslogodcolor.png" alt="" class="image-fluid img-thumbnail headerLogo"></a>
+                    <a href="index.html"><img src="images/swiftfoodslogodcolor.png" alt="" class="image-fluid img-thumbnail headerLogo scale-in-center"></a>
                 </div>
                 <div class="col">
-                    <h1>Swift Foods</h1>
-                    <h2>a better way to eat!</h2>
+                    <h1 class="slide-in-left">Swift Foods</h1>
+                    <h2 class="slide-in-right">a better way to eat!</h2>
                 </div>
                 <div class="col-md-2 col-xl-2 col-sm-3 text-center">
-                    <a class="btn btn-large btn-primary mt-4 subscribeBtn" data-toggle="#" data-target="#" href="#subscribeForm">Subscribe</a>
+                    <a class="btn btn-large btn-primary mt-4 subscribeBtn slide-in-top" data-toggle="#" data-target="#" href="#subscribeForm">Subscribe</a>
                 </div>
             </div>
         </div>
@@ -43,9 +43,9 @@
           </button>
           <div class="collapse navbar-collapse" id="swiftFoodsNavbar">
               <ul class="navbar-nav text-center">
-                  <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
                   <li class="nav-item"><a class="nav-link" href="aboutus.html"> About Us</a></li>
-                  <li class="nav-item active"><a class="nav-link" href="shop.html"> Shop</a></li>
+                  <li class="nav-item"><a class="nav-link" href="shop.html"> Shop</a></li>
                   <li class="nav-item"><a class="nav-link" href="contact.html"> Contact</a></li>
               </ul>
           </div>
@@ -55,51 +55,23 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="text-center mt-5 mb-5">Shop!</h3>
+                <h3 class="text-center mt-5 mb-5">Thank You For Subscribing!</h3>
             </div>
         </div>
     </div>
 
-    <div class="container mt-4 mb-4">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 pb-4 col-lg-4">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img src="images/peppizza.jpg" class="card-img-top" alt="pepperoni pizaa">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Pizza</h5>
-                      <p class="card-text text-left">Italian pizza made with homemade tomato sauce, fresh american white cheese, and topped with pepperonis</p>
-                      <p class="card-text text-center">$6.99</p>
-                      <a href="order.html" class="btn orderBtn">Order Now</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 pb-4">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img src="images/salad.jpg" class="card-img-top" alt="salad">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Salad</h5>
-                        <p class="card-text text-left">Freshly cut lettuce topped with home grown tomatos, garden fresh carrots, and our signature ranch dressing.</p>
-                        <p class="card-text text-center">$4.99</p>
-                        <a href="order.html" class="btn orderBtn mx-auto">Order Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6-offset-2 col-lg-4 pb-4">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img src="images/burger.jpg" class="card-img-top" alt="burger">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Burger</h5>
-                      <p class="card-text text-left">Mouth drooling angus burger on two buns topped with fresh lettuce, tomato, ketchup and onions</p>
-                      <p class="card-text text-center">$8.99</p>
-                      <a href="order.html" class="btn orderBtn">Order Now</a>
-                    </div>
-                </div>
+            <div class="col-12">
+                <p class="w-50 mx-auto thanksMsg">Hello <span class="subFirstName">${'firstName'}</span> <span class="subLastName">${'lastName'}</span>, Thank you for subscribing! Your card will be charged every 
+                    <span class="subMonths">${'months'}</span> months. To start getting food sent to <span class="subAddress">${'address'}</span> <span class="subCity">${'city'}</span>, 
+                    <span class="subState">${'state'}</span> <span class="subZip">${'zipcode'}</span>, please visit the <a href="/shop.html" class="shopLink">shop page!</a>
+                </p>
             </div>
         </div>
-        
     </div>
 
-    <footer class="site-footer ">
+    <footer class="site-footer mt-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 col-sm-2 offset-1">
@@ -112,8 +84,8 @@
                     </ul>
 
                 </div>
-                <div class="col-6 col-sm-5 text-center ">
-                    <a class="btn btn-large btn-primary mt-4 subscribeBtn" data-toggle="#" data-target="#" href="index.html#subscribeForm">Subscribe</a>
+                <div class="col-6 col-sm-5 text-center">
+                    <a class="btn btn-large btn-primary mt-4 subscribeBtn" data-toggle="#" data-target="#" href="#subscribeForm">Subscribe</a>
                 </div>
                 <div class="col-sm-4 text-center contactInfo">
                     <a  role="button" href="tel:+12065551234" class="btn btn-link"><i class="fa fa-phone"></i> 1-770-678-9900</a><br>
