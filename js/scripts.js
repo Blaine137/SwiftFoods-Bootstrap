@@ -46,5 +46,5 @@
     if(document.querySelector('.subZip')){
         document.querySelector('.subZip').innerHTML = sessionStorage.getItem('zipcode');
     }
-// document.querySelector('.subZip').innerHTML = zipcode;
+
 
