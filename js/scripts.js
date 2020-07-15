@@ -22,6 +22,111 @@
 
     } //end if subBtn exists
 
+    if(document.getElementById('burgerSelect')){
+
+                        //if the number of burger ordered is changed update the price
+        document.getElementById('burgerSelect').addEventListener('change', () => {
+
+            if(document.getElementById('burgerSelect') && document.getElementById('pizzaSelect') && document.getElementById('saladSelect')){
+
+                if(document.querySelector('#burgerSelect').value > 0){
+                    sessionStorage.setItem('burgerNum', document.getElementById('burgerSelect').value);
+                }else{
+                    sessionStorage.setItem('burgerNum', 0);
+                }
+                if(document.querySelector('#pizzaSelect').value > 0){
+                    sessionStorage.setItem('pizzaNum', document.getElementById('pizzaSelect').value);
+                }else{
+                    sessionStorage.setItem('pizzaNum', 0);
+                }
+                if(document.querySelector('#saladSelect').value > 0){
+                    sessionStorage.setItem('saladNum', document.getElementById('saladSelect').value);
+                }else{
+                    sessionStorage.setItem('saladNum', 0);
+                }
+        
+                let totalPrice = (sessionStorage.getItem('burgerNum') * 8.99) + (sessionStorage.getItem('pizzaNum') * 6.99) + (sessionStorage.getItem('saladNum') * 4.99);
+        
+                if(document.querySelector('.totalPrice')){
+                    document.querySelector('.totalPrice').innerHTML = totalPrice;
+                }
+        
+            }
+
+        }); // end event of burger change
+
+    }
+
+    if(document.getElementById('pizzaSelect')){
+
+                    //event if number of pizzas change
+        document.getElementById('pizzaSelect').addEventListener('change', () => {
+
+            if(document.getElementById('burgerSelect') && document.getElementById('pizzaSelect') && document.getElementById('saladSelect')){
+
+                if(document.querySelector('#burgerSelect').value > 0){
+                    sessionStorage.setItem('burgerNum', document.getElementById('burgerSelect').value);
+                }else{
+                    sessionStorage.setItem('burgerNum', 0);
+                }
+                if(document.querySelector('#pizzaSelect').value > 0){
+                    sessionStorage.setItem('pizzaNum', document.getElementById('pizzaSelect').value);
+                }else{
+                    sessionStorage.setItem('pizzaNum', 0);
+                }
+                if(document.querySelector('#saladSelect').value > 0){
+                    sessionStorage.setItem('saladNum', document.getElementById('saladSelect').value);
+                }else{
+                    sessionStorage.setItem('saladNum', 0);
+                }
+        
+                let totalPrice = (sessionStorage.getItem('burgerNum') * 8.99) + (sessionStorage.getItem('pizzaNum') * 6.99) + (sessionStorage.getItem('saladNum') * 4.99);
+        
+                if(document.querySelector('.totalPrice')){
+                    document.querySelector('.totalPrice').innerHTML = totalPrice;
+                }
+        
+            }
+
+        }); //end event of number of pizzas
+
+    }
+
+    if(document.getElementById('saladSelect')){
+
+                    //event for number of salads
+        document.getElementById('saladSelect').addEventListener('change', () => {
+
+            if(document.getElementById('burgerSelect') && document.getElementById('pizzaSelect') && document.getElementById('saladSelect')){
+
+                if(document.querySelector('#burgerSelect').value > 0){
+                    sessionStorage.setItem('burgerNum', document.getElementById('burgerSelect').value);
+                }else{
+                    sessionStorage.setItem('burgerNum', 0);
+                }
+                if(document.querySelector('#pizzaSelect').value > 0){
+                    sessionStorage.setItem('pizzaNum', document.getElementById('pizzaSelect').value);
+                }else{
+                    sessionStorage.setItem('pizzaNum', 0);
+                }
+                if(document.querySelector('#saladSelect').value > 0){
+                    sessionStorage.setItem('saladNum', document.getElementById('saladSelect').value);
+                }else{
+                    sessionStorage.setItem('saladNum', 0);
+                }
+        
+                let totalPrice = (sessionStorage.getItem('burgerNum') * 8.99) + (sessionStorage.getItem('pizzaNum') * 6.99) + (sessionStorage.getItem('saladNum') * 4.99);
+        
+                if(document.querySelector('.totalPrice')){
+                    document.querySelector('.totalPrice').innerHTML = totalPrice;
+                }
+        
+            }
+
+        }); //end event for number of salads
+
+    }
+
     if(document.querySelector('.subFirstName')){
         document.querySelector('.subFirstName').innerHTML = sessionStorage.getItem('firstName');
     }
